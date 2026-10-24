@@ -1,0 +1,118 @@
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.10:3000
+✓ Ready in 966ms
+✓ Running next.config.ts took 75ms
+
+○ Compiling / ...
+ GET / 200 in 1557ms (next.js: 1021ms, application-code: 536ms)
+ GET / 200 in 293ms (next.js: 5ms, application-code: 288ms)
+ GET / 200 in 238ms (next.js: 4ms, application-code: 233ms)
+ GET / 200 in 257ms (next.js: 3ms, application-code: 254ms)
+ GET /produk/ 200 in 85ms (next.js: 28ms, application-code: 57ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /produk/?kategori=frozen-food 200 in 307ms (next.js: 15ms, application-code: 292ms)
+ GET /produk/ 200 in 43ms (next.js: 13ms, application-code: 30ms)
+ GET /produk/ 200 in 82ms (next.js: 7ms, application-code: 75ms)
+ GET / 200 in 212ms (next.js: 5ms, application-code: 207ms)
+ GET /tentang-kami/ 200 in 190ms (next.js: 20ms, application-code: 171ms)
+ GET /produk/ 200 in 171ms (next.js: 3ms, application-code: 168ms)
+ GET /produk/apel/ 200 in 1474ms (next.js: 22ms, generate-params: 1307ms, application-code: 145ms)
+ GET /produk/french-fries/ 200 in 151ms (next.js: 2ms, generate-params: 9ms, application-code: 140ms)
+ GET /layanan/ 200 in 179ms (next.js: 18ms, application-code: 162ms)
+ GET /cara-pemesanan/ 200 in 162ms (next.js: 17ms, application-code: 145ms)
+ GET /kontak/ 200 in 236ms (next.js: 15ms, application-code: 221ms)
+ GET /sitemap.xml 200 in 330ms (next.js: 284ms, application-code: 46ms)
+ GET /robots.txt 200 in 165ms (next.js: 151ms, application-code: 14ms)
+ GET /tidak-ada-halaman/ 404 in 480ms (next.js: 365ms, application-code: 115ms)
+ GET /kontak/ 200 in 121ms (next.js: 2ms, application-code: 118ms)
+✓ Compiled in 207ms
+ GET /kontak/ 200 in 212ms (next.js: 8ms, application-code: 204ms)
+ GET /kontak/ 200 in 154ms (next.js: 7ms, application-code: 147ms)
+ GET / 200 in 273ms (next.js: 4ms, application-code: 269ms)
+ GET /produk/apel/ 200 in 208ms (next.js: 2ms, generate-params: 8ms, application-code: 197ms)
+ GET /layanan/ 200 in 152ms (next.js: 3ms, application-code: 150ms)
+ GET /cara-pemesanan/ 200 in 218ms (next.js: 3ms, application-code: 214ms)
+ GET /halaman-tidak-ada/ 404 in 183ms (next.js: 66ms, application-code: 116ms)
+✓ Compiled in 283ms
+✓ Compiled in 567ms
+ GET /halaman-tidak-ada/ 404 in 230ms (next.js: 125ms, application-code: 104ms)
+ GET /halaman-tidak-ada/ 404 in 292ms (next.js: 27ms, application-code: 265ms)
+✓ Compiled in 629ms
+ GET /halaman-tidak-ada/ 404 in 138ms (next.js: 77ms, application-code: 61ms)
+ GET /halaman-tidak-ada/ 404 in 238ms (next.js: 25ms, application-code: 213ms)
+✓ Compiled in 420ms
+ GET /halaman-tidak-ada/ 404 in 221ms (next.js: 99ms, application-code: 122ms)
+ GET /halaman-tidak-ada/ 404 in 257ms (next.js: 26ms, application-code: 231ms)
+ GET / 200 in 375ms (next.js: 13ms, application-code: 362ms)
+✓ Compiled in 186ms
+ GET /halaman-tidak-ada/ 404 in 272ms (next.js: 207ms, application-code: 65ms)
+ GET / 200 in 220ms (next.js: 24ms, application-code: 196ms)
+ GET /halaman-tidak-ada/ 404 in 152ms (next.js: 14ms, application-code: 138ms)
+ GET / 200 in 459ms (next.js: 3ms, application-code: 456ms)
+✓ Compiled in 163ms
+ GET /halaman-tidak-ada/ 404 in 345ms (next.js: 239ms, application-code: 106ms)
+ GET / 200 in 323ms (next.js: 6ms, application-code: 317ms)
+ GET /halaman-tidak-ada/ 404 in 232ms (next.js: 25ms, application-code: 207ms)
+ GET / 200 in 373ms (next.js: 4ms, application-code: 368ms)
+ GET /kontak/ 200 in 237ms (next.js: 6ms, application-code: 232ms)
+ GET / 200 in 418ms (next.js: 10ms, application-code: 408ms)
+ GET /produk/?kategori=buah-sayur 200 in 84ms (next.js: 12ms, application-code: 72ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 140ms (next.js: 5ms, application-code: 135ms)
+✓ Compiled in 465ms
+ GET /kontak/ 200 in 384ms (next.js: 135ms, application-code: 249ms)
+ GET /kontak/ 200 in 184ms (next.js: 4ms, application-code: 181ms)
+ GET /kontak/ 200 in 99ms (next.js: 5ms, application-code: 93ms)
+ GET / 200 in 487ms (next.js: 68ms, application-code: 418ms)
+ GET / 200 in 249ms (next.js: 115ms, application-code: 135ms)
+ GET / 200 in 253ms (next.js: 5ms, application-code: 247ms)
+✓ Compiled in 248ms
+ GET /kontak/ 200 in 98ms (next.js: 6ms, application-code: 92ms)
+ GET / 200 in 279ms (next.js: 13ms, application-code: 266ms)
+✓ Compiled in 149ms
+ GET /kontak/ 200 in 108ms (next.js: 4ms, application-code: 104ms)
+ GET / 200 in 300ms (next.js: 9ms, application-code: 291ms)
+✓ Compiled in 349ms
+ GET /kontak/ 200 in 85ms (next.js: 4ms, application-code: 81ms)
+ GET / 200 in 290ms (next.js: 17ms, application-code: 273ms)
+✓ Compiled in 87ms
+ GET /kontak/ 200 in 85ms (next.js: 4ms, application-code: 82ms)
+ GET / 200 in 215ms (next.js: 3ms, application-code: 211ms)
+ GET / 200 in 700ms (next.js: 3ms, application-code: 696ms)
+ GET / 200 in 26ms (next.js: 4ms, application-code: 22ms)
+ GET / 200 in 168ms (next.js: 3ms, application-code: 165ms)
+ GET / 200 in 23ms (next.js: 4ms, application-code: 19ms)
+ GET / 200 in 141ms (next.js: 4ms, application-code: 137ms)
+ GET / 200 in 220ms (next.js: 3ms, application-code: 218ms)
+ GET / 200 in 347ms (next.js: 3ms, application-code: 344ms)
+ GET / 200 in 365ms (next.js: 5ms, application-code: 361ms)
+ GET /tentang-kami/ 200 in 148ms (next.js: 28ms, application-code: 121ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /produk/ 200 in 88ms (next.js: 27ms, application-code: 61ms)
+ GET /layanan/ 200 in 139ms (next.js: 31ms, application-code: 108ms)
+ GET /cara-pemesanan/ 200 in 124ms (next.js: 31ms, application-code: 93ms)
+ GET /kontak/ 200 in 86ms (next.js: 8ms, application-code: 78ms)
+ GET / 200 in 151ms (next.js: 4ms, application-code: 147ms)
+✓ Compiled in 216ms
+ GET / 200 in 377ms (next.js: 4ms, application-code: 373ms)
+ GET /kontak/ 200 in 247ms (next.js: 10ms, application-code: 237ms)
+ GET / 200 in 313ms (next.js: 3ms, application-code: 310ms)
+✓ Compiled in 164ms
+ GET / 200 in 386ms (next.js: 215ms, application-code: 171ms)
+ GET / 200 in 394ms (next.js: 11ms, application-code: 383ms)
+ GET /produk/ 200 in 276ms (next.js: 5ms, application-code: 271ms)
+ GET /produk/?kategori=daging 200 in 139ms (next.js: 3ms, application-code: 136ms)
+ GET / 200 in 132ms (next.js: 6ms, application-code: 126ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /produk/ 200 in 61ms (next.js: 4ms, application-code: 57ms)
+✓ Compiled in 207ms
+ GET /produk/ 200 in 86ms (next.js: 5ms, application-code: 81ms)
+ GET / 200 in 243ms (next.js: 3ms, application-code: 240ms)
+ GET /produk/?kategori=daging 200 in 205ms (next.js: 9ms, application-code: 196ms)
+ GET / 200 in 273ms (next.js: 6ms, application-code: 267ms)
+✓ Compiled in 136ms
+ GET / 200 in 222ms (next.js: 129ms, application-code: 93ms)
+ GET / 200 in 234ms (next.js: 18ms, application-code: 216ms)
+ GET / 200 in 282ms (next.js: 2ms, application-code: 280ms)
+[?25h
