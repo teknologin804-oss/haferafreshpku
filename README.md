@@ -49,7 +49,7 @@ cp .env.example .env.local
 | Variabel | Wajib | Keterangan |
 | --- | --- | --- |
 | `NEXT_PUBLIC_WHATSAPP_NUMBER` | Opsional | Nomor resmi `6285839025704` sudah menjadi default di `src/config/site.ts`. Isi variabel ini hanya bila ingin merotasi nomor tanpa mengubah kode. Format internasional tanpa `+`, spasi, atau tanda hubung; nomor lokal `0812…` otomatis dinormalisasi. |
-| `NEXT_PUBLIC_SITE_URL` | Ya, sebelum publikasi | URL publik penuh, tanpa slash di akhir. Dipakai untuk `sitemap.xml`, `robots.txt`, dan Open Graph. Contoh: `https://haferafresh.co.id`. |
+| `NEXT_PUBLIC_SITE_URL` | Opsional di Vercel | URL publik penuh, tanpa slash di akhir. Dipakai untuk `sitemap.xml`, `robots.txt`, dan Open Graph. Contoh: `https://haferafresh.co.id`. Bila dikosongkan, deploy Vercel memakai domainnya sendiri secara otomatis (`VERCEL_PROJECT_PRODUCTION_URL`); isi variabel ini hanya setelah memakai custom domain. |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | Opsional | Jika pemilik ingin menampilkan email bisnis. |
 
 Catatan penting:

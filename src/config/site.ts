@@ -25,13 +25,51 @@ function formatWhatsAppNumber(digits: string): string {
   return `+62 ${local}`;
 }
 
+/**
+ * Menentukan alamat canonical situs.
+ *
+ * Urutan prioritas:
+ * 1. NEXT_PUBLIC_SITE_URL — domain final milik pemilik situs (custom domain).
+ * 2. VERCEL_PROJECT_PRODUCTION_URL — diisi otomatis oleh Vercel saat build,
+ *    supaya sitemap/robots/canonical/Open Graph tidak pernah menunjuk ke
+ *    localhost hanya karena env manual belum diisi.
+ * 3. VERCEL_URL — domain preview/deployment.
+ * 4. localhost — untuk pengembangan lokal.
+ */
+function resolveSiteUrl(): string {
+  const tidy = (value: string) =>
+    value
+      .replace(/^https?:\/\//, "")
+      .replace(/\/+$/, "");
+
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+
+  if (explicit) {
+    return explicit.replace(/\/+$/, "");
+  }
+
+  const vercelProduction = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
+
+  if (vercelProduction) {
+    return `https://${tidy(vercelProduction)}`;
+  }
+
+  const vercelDeployment = process.env.VERCEL_URL?.trim();
+
+  if (vercelDeployment) {
+    return `https://${tidy(vercelDeployment)}`;
+  }
+
+  return "http://localhost:3000";
+}
+
 export const siteConfig = {
   name: "HAFERA FRESH",
   shortName: "HAFERA",
   tagline: "Fresh for a Better Tomorrow",
   description:
     "HAFERA FRESH adalah distributor buah, daging, frozen food, dan produk pangan untuk kebutuhan bisnis kuliner di Pekanbaru dan sekitarnya.",
-  url: (process.env.NEXT_PUBLIC_SITE_URL?.trim() || "http://localhost:3000").replace(/\/+$/, ""),
+  url: resolveSiteUrl(),
   locale: "id_ID",
   lang: "id",
   location: {
