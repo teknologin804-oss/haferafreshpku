@@ -1,0 +1,18 @@
+# Konfigurasi untuk hosting Apache/cPanel yang menyajikan hasil `next build`
+# (folder `out/`). Letakkan berkas ini di root website bersama index.html.
+
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+# Pastikan tipe MIME modern dikenali dengan benar.
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType image/svg+xml .svg
+  AddType application/xml .xml
+</IfModule>
